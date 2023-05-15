@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-  <title>CSS Template</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> projeto </title>
   <link rel="stylesheet" href="../css/estilo_index.css">
 
 </head>
@@ -12,20 +11,21 @@
 <body>
 
   <header>
-    <a class="botao" href="./index.html"> Inicial </a>
-    <a class="botao" href="./login.html"> Login </a>
-    <a class="botao" href="./cadastro.html"> Cadastro </a>
-    <a class="botao" href="./curriculo.html"> Curriculo </a>
+    <a class="botao" href="index.html"> Inicial </a>
+    <a class="botao" href="login.html"> Login </a>
+    <a class="botao" href="cadastro.html"> Cadastro </a>
+    <a class="botao" href="vagas_empregos.html"> vagas e empregos </a>
+    <a class="botao" href="curriculo.html"> Curriculo </a>
   </header>
 
-  <div class="formulario_03">
-       <div class="content">
+  <div class="formulario_02">
+
+    <h1> login </h1>
+        <div class="logo">
+          <img src="./img/0009.png" alt="imgem sucundaria">
+        </div><br><br>      
         <form>
           <div>
-            <img src="./img/0009.png" alt="imgem sucundaria">
-          </div>
-
-          <div class="container">
             <label> nome </label><br>
             <input type="text" placeholder="Enter Username" name="uname" required><br>
 
@@ -41,11 +41,12 @@
           <div class="botao" style="background-color:#f1f1f1">
             <button type="button" class="cancelbtn">Cancelar</button>
             <span class="psw">Forgot <a href="#">password?</a></span>
+            
           </div>
         </form>
       </div>
-    </div>
-        <script>
+      
+      <script>
           var idade = prompt("Digite sua idade: ");
 
           if (idade <= 39) {//Começo
@@ -59,7 +60,7 @@
           alert("Você tem: " + idade + " anos.\nSeja bem vindo!")
 
           }//Fim
-
+          
         </script>
 
 </body>
