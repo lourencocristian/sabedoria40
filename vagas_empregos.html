@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> projeto </title>
+<link rel="stylesheet" href="../css/estilo_index.css">
+</head>
+<body>
+
+    <header>
+        <a class="botao" href="index.html"> Inicial </a>
+        <a class="botao" href="login.html"> Login </a>
+        <a class="botao" href="cadastro.html"> Cadastro </a>
+        <a class="botao" href="vagas_empregos.html"> vagas e empregos </a>
+        <a class="botao" href="curriculo.html"> Curriculo </a>    
+    </header>
+
+<div class="formulario_04">
+
+
+    <h1>Formulário de Vagas</h1> 
+
+<form action="processar_formulario.php" method="post">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required><br><br>
+            
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required><br><br>
+            
+<label for="telefone">Telefone:</label>
+<input type="text" id="telefone" name="telefone" required><br><br>
+            
+<label for="vaga">Vaga de interesse:</label>
+<input type="text" id="vaga" name="vaga" required><br><br>
+            
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" required></textarea><br><br>
+            
+<input type="submit" value="Enviar">
+
+<h1>Vagas de Emprego</h1>
+
+  <div class="vaga">
+    <h2>Desenvolvedor(a) Front-End</h2>
+    <p>
+      Estamos procurando um(a) desenvolvedor(a) Front-End experiente para se juntar à nossa equipe de tecnologia. O(a) candidato(a) ideal terá forte conhecimento em HTML, CSS e JavaScript, além de experiência com frameworks como React ou Angular.
+    </p>
+    <p>
+      Requisitos:
+    </p>
+    <ul>
+      <li>Bacharelado em Ciência da Computação ou área relacionada</li>
+      <li>Experiência mínima de 2 anos em desenvolvimento Front-End</li>
+      <li>Conhecimento avançado em HTML, CSS e JavaScript</li>
+      <li>Experiência com frameworks modernos como React ou Angular</li>
+    </ul>
+    <p>
+      Local: São Paulo, SP
+    </p>
+    <a href="aplicar.php?id=2"><strong>Aplicar</strong></a>
+  </div>
+
+  <div class="vaga">
+    <h2>Analista de Marketing Digital</h2>
+    <p>
+      Estamos em busca de um(a) analista de marketing digital para impulsionar nossas estratégias de marketing online. O(a) candidato(a) ideal terá experiência em campanhas de mídia paga, SEO, e-mail marketing e análise de dados.
+    </p>
+    <p>
+      Requisitos:
+    </p>
+    <ul>
+      <li>Experiência mínima de 3 anos em marketing digital</li>
+      <li>Conhecimento em estratégias de SEO e mídia paga</li>
+      <li>Habilidades avançadas em análise de dados</li>
+      <li>Experiência com ferramentas de automação de marketing</li>
+    </ul>
+    <p>
+      Local: Rio de Janeiro, RJ
+    </p>
+    <a href="aplicar.php?id=2"><strong>Aplicar</strong></a>
+  </div>
+  <div class="vaga">
+    <h2>Gerente de Projetos</h2>
+    <p>
+      Estamos em busca de um(a) gerente de projetos experiente para liderar nossa equipe de desenvolvimento. O(a) candidato(a) ideal terá sólida experiência em gerenciamento de projetos, conhecimento em metodologias ágeis e habilidades de liderança.
+    </p>
+    <p>
+      Requisitos:
+    </p>
+    <ul>
+      <li>Experiência mínima de 10 anos em gerenciamento de projetos</li>
+      <li>Conhecimento em metodologias ágeis, como Scrum ou Kanban</li>
+      <li>Habilidades avançadas de comunicação e liderança</li>
+    </ul>
+    <p>
+      Local: São Paulo, SP
+    </p>
+    <a href="aplicar.php?id=2"><strong>Aplicar</strong></a>
+  </div>
+
+  <div class="vaga">
+    <h2>Consultor Financeiro</h2>
+    <p>
+      Estamos procurando um(a) consultor(a) financeiro(a) para auxiliar nossos clientes na tomada de decisões estratégicas relacionadas a finanças. O(a) candidato(a) ideal terá sólida experiência em consultoria financeira e conhecimento em análise de investimentos.
+    </p>
+    <p>
+      Requisitos:
+    </p>
+    <ul>
+      <li>Experiência mínima de 8 anos em consultoria financeira</li>
+      <li>Conhecimento avançado em análise de investimentos</li>
+      <li>Habilidades de comunicação e negociação</li>
+    </ul>
+    <p>
+      Local: Rio de Janeiro, RJ
+    </p>
+    <a href="aplicar.php?id=2"><strong>Aplicar</strong></a>
+  </div>
+
+  <!-- Adicione mais vagas de emprego conforme necessário -->
+
+
+</form>
+
+</body>
+
+</html>
