@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> projeto </title>
+  <link rel="stylesheet" href="../css/estilo_index.css">
+
+</head>
+
+<body>
+
+  <header>
+    <a class="botao" href="index.html"> Inicial </a>
+    <a class="botao" href="login.html"> Login </a>
+    <a class="botao" href="cadastro.html"> Cadastro </a>
+    <a class="botao" href="vagas_empregos.html"> vagas e empregos </a>
+    <a class="botao" href="curriculo.html"> Curriculo </a>
+  </header>
+
+  <div class="formulario_02">
+
+    <h1> login </h1>
+        <div class="logo_secundario">
+          <img src="./image/logo_sabedoria.png" alt="logo_sabedoria">
+        </div><br><br>      
+        <form>
+          <div>
+            <label> nome </label><br>
+            <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+            <label>senha</label><br>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="botao" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+            
+          </div>
+        </form>
+      </div>
+      
+      <script>
+          var idade = prompt("Digite sua idade: ");
+
+          if (idade <= 39) {//Começo
+
+         alert("Você tem: " + idade + " anos.\nEste site é voltado para quem tem 40 anos ou mais!")
+
+          }//Fim
+
+          else if (idade >= 40 && idade < 50) {//Começo
+
+          alert("Você tem: " + idade + " anos.\nSeja bem vindo!")
+
+          }//Fim
+          
+        </script>
+
+<footer>
+  <h1> projeto em desenvolvimento </h1>
+  <h1> cornélio procópio, Brasil </h1>
+  <h1> R.Goiás, 160, senac, pr </h1>
+  <h1> cep:86.300-000 </h1>
+</footer>
+
+</body>
+
+</html>
