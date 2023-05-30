@@ -1,9 +1,0 @@
-table, tr, td{
-    border: 1px solid;
-    border-collapse: collapse;
-    caption-side: bottom;
-    text-align: center;
-}
-td{
-    background-color: rgb(24, 4, 98);
-}
